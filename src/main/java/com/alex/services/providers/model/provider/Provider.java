@@ -1,5 +1,8 @@
 package com.alex.services.providers.model.provider;
 
-public class Provider {
+import java.io.Serializable;
+
+public class Provider implements Serializable {
+	private static final long serialVersionUID = 1L;
 
 }
