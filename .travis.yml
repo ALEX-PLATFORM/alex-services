@@ -3,5 +3,4 @@ jdk: oraclejdk8
 sudo: enabled
 install: true
 script: "mvn clean install"
-script: "mvn cobertura:cobertura"
 bash <(curl -s https://codecov.io/)
